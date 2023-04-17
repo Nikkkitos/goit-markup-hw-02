@@ -3,7 +3,8 @@ body {
     color: #2E2F42;
 }
 
-footer {
+
+.footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 } 
@@ -15,10 +16,15 @@ footer {
     background-color: #2E2F42;
     color: white;
 }
+
 .team {
     background-color: #F4F4FD;
 }
 
 .address-list {
+    color: #434455;
+}
+.about-list {
+    
     color: #434455;
 }

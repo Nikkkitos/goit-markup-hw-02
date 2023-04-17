@@ -1,16 +1,20 @@
 body {
     background-color: #e5e5e5;
+    color: #2E2F42;
 }
-section {
-    background-color: tomato;
-}
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+} 
 
 .hero {
     background-color: #2E2F42;
+    color: white;
 }
 .team {
     background-color: #F4F4FD;
 }
-.footer {
-    background-color: #2E2F42;
+
+.address-list {
+    color: #434455;
 }

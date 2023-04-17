@@ -2,10 +2,14 @@ body {
     background-color: #e5e5e5;
     color: #2E2F42;
 }
+
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 } 
+.link {
+    text-decoration: none;
+}
 
 .hero {
     background-color: #2E2F42;

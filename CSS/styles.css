@@ -1,11 +1,83 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
+
 body {
     background-color: #e5e5e5;
     color: #2E2F42;
 }
 
+/* Portfolio image */
+.portfolio-page{
+    position: absolute;
+    width: 323px;
+    height: 40px;
+    left: 559px;
+    top: 1016px;
+    
+    /* Header 2 */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--color-navy-blue-modal);
+}
+.portfolio-img {
+    box-sizing: border-box;
+    width: 360;
+    height: 300;
+    /* CORNFLOWER */  
+    border: 1px solid var(--color-cornflower);  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Team */
+.team-page {
+    position: absolute;
+    width: 162;
+    height: 40px;
+    left: 639px;
+    top: 1668px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-navy-blue-modal);
+}
+.team{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20;
+line-height: 24px;
+/* identical to box height, or 120% */
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--color-navy-blue-modal);
+}
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--color-navy-blue-modal);
     color: #F4F4FD;
 } 
 .link {
@@ -13,7 +85,7 @@ body {
 }
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--color-navy-blue-modal);
     color: white;
 }
 
@@ -22,9 +94,9 @@ body {
 }
 
 .address-list {
-    color: #434455;
+    color: var( --color-slate);
 }
 .about-list {
     
-    color: #434455;
+    color: var( --color-slate);
 }

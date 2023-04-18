@@ -19,7 +19,7 @@ body {
     background-color: #FFFFFF;
 
 }
-.footer {
+footer {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -29,8 +29,8 @@ body {
     text-decoration: none;
     background-color: var(--color-navy-blue-modal);
 } 
-span {
-    color: #2e2f42;
+.span {
+    color: #f4f4fd;
 }
 /* HEADER HEADER HEADER HEADER HEADER */
 .page-header {
@@ -113,21 +113,4 @@ color: var(--color-navy-blue-modal);
 
 .link {
     text-decoration: none;
-}
-
-.hero {
-    background-color: var(--color-navy-blue-modal);
-    color: white;
-}
-
-.team {
-    background-color: #F4F4FD;
-}
-
-.address-list {
-    color: var( --color-slate);
-}
-.about-list {
-    
-    color: var( --color-slate);
 }

@@ -33,7 +33,7 @@ footer {
     color: #2e2f42;
 }
 /* HEADER HEADER HEADER HEADER HEADER */
-header {
+.page-header {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;

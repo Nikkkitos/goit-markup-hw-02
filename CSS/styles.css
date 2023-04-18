@@ -17,6 +17,19 @@ body {
     font-family: "Roboto", sans-serif;
 
 }
+footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
+    text-decoration: none;
+    background-color: var(--color-navy-blue-modal);
+} 
+span {
+    color: var(--color-cloud);
+}
 
 /* Portfolio image */
 .portfolio-page{
@@ -76,10 +89,7 @@ letter-spacing: 0.02em;
 color: var(--color-navy-blue-modal);
 }
 
-.footer {
-    background-color: var(--color-navy-blue-modal);
-    color: #F4F4FD;
-} 
+
 .link {
     text-decoration: none;
 }

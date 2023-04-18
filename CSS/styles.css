@@ -9,14 +9,14 @@
     --color-cloud: #f4f4fd;
     --color-navy-blue-modal: #2e2f42;
     --color-grey: #2e2f42;
-    --color-white: #ffffff;
+    --header-color: #ffffff;
     --color-dairy: #fcfcfc;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--header-color);
 
 }
 

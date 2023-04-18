@@ -30,10 +30,10 @@ footer {
     background-color: var(--color-navy-blue-modal);
 } 
 .span {
-    color: #f4f4fd;
+    color: #2e2f42;
 }
 /* HEADER HEADER HEADER HEADER HEADER */
-.page-header {
+header {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;

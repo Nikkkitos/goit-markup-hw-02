@@ -14,9 +14,8 @@
 }
 
 body {
-    font-family: Roboto sans-serif;
-    background-color: var(--color-white);
-    color: var(--color-slate);
+    font-family: "Roboto", sans-serif;
+
 }
 
 /* Portfolio image */

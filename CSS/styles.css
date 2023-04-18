@@ -30,7 +30,7 @@ body {
     background-color: var(--color-navy-blue-modal);
 } 
 span {
-    color: var(--color-cloud);
+    color: val(--color-navy-blue-modal);
 }
 
 /* Portfolio image */

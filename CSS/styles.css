@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: var(--header-color);
 
@@ -29,7 +29,7 @@ body {
 
 /* ======HEADER====== */
 .link-logo{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -84,7 +84,7 @@ HOVER
 }
 .hero-btn {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -152,7 +152,7 @@ button:focus {
     background-color: #2e2f42;
 }
 .footer-link {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -168,7 +168,7 @@ button:focus {
 
 /* =======FILTER======= */
 .filter-btn {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

@@ -37,44 +37,33 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
-
-/* Portfolio image */
-.portfolio-page{
-    position: absolute;
-    width: 323px;
-    height: 40px;
-    left: 559px;
-    top: 1016px;
-    
-    /* Header 2 */
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    color: var(--color-navy-blue-modal);
+/* span Studio */
+.logo-text {
+    color: #2E2F42;
 }
-.portfolio-img {
-    box-sizing: border-box;
-    width: 360;
-    height: 300;
-    /* CORNFLOWER */  
-    border: 1px solid var(--color-cornflower);  
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-footer {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
+.menu-list {
     text-decoration: none;
-    background-color: var(--color-navy-blue-modal);
-} 
+}
+.menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+/* ADDRESS */
+.header-address {
+    font-style: normal;
+}
+.address-link {
+
+}
+/* 
+HOVER
+*/
+a:hover,
+a:focus {
+    color: #404bbf;
+}

@@ -14,51 +14,29 @@
 }
 
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 
 }
-footer {
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
+
+.link {
     text-decoration: none;
-    background-color: var(--color-navy-blue-modal);
-} 
-.span {
-    color: #2e2f42;
 }
-/* HEADER HEADER HEADER HEADER HEADER */
-.page-header {
+.list {
+    list-style: none;
+}
+
+/* ======HEADER====== */
+.link-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none; 
-}
-.list {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-    color: #404bbf
-}
-address {
-    font-style: normal;
-
 }
 
 /* Portfolio image */
@@ -90,36 +68,13 @@ address {
     flex-grow: 0;
 }
 
-/* Team */
-.team-page {
-    position: absolute;
-    width: 162;
-    height: 40px;
-    left: 639px;
-    top: 1668px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--color-navy-blue-modal);
-}
-.team{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20;
-line-height: 24px;
-/* identical to box height, or 120% */
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--color-navy-blue-modal);
-}
-
-
-.link {
+footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-iris);
     text-decoration: none;
-}
+    background-color: var(--color-navy-blue-modal);
+} 

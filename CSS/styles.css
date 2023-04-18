@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--color-slate);
     background-color: var(--header-white);
 
 }
@@ -37,11 +37,11 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--color-iris);
 }
 /* span Studio */
 .logo-text {
-    color: #2E2F42;
+    color: var(--color-navy-blue-modal);
 }
 .menu-list {
     text-decoration: none;
@@ -51,7 +51,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--color-navy-blue-modal);
 }
 /* ADDRESS */
 .header-address {
@@ -61,19 +61,19 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
 }
 /* 
 HOVER
 */
 .address-link:hover,
 .address-link:focus {
-    color: #404bbf;
+    color: var(--color-ocean);
 }
 
 /* =========Hero========== */
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--color-grey);
 }
 .hero-title {
     font-size: 56px;
@@ -94,7 +94,7 @@ HOVER
 }
 button:hover,
 button:focus {
-    background-color: #404BBF;
+    background-color: var(--color-ocean);
 }
 /* =======ABOUT======== */
 .about-text {
@@ -102,13 +102,13 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-navy-blue-modal);
 }
 .par {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
 }
 /* ========PORTFOLIO======== */
 .portfolio-text {
@@ -117,7 +117,7 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--color-grey);
 }
 /* ========TEAM======== */
 .team {
@@ -129,7 +129,7 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--color-grey);
 }
 .team-item {
     background-color: #FFFFFF;
@@ -139,17 +139,17 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--color-grey);
 }
 .team-par {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: var(--color-slate); 
 }
 /* ========FOOTER======== */
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--color-grey);
 }
 .footer-link {
     font-family: 'Raleway', sans-serif;
@@ -158,10 +158,10 @@ button:focus {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5; 
+    color: var(--color-iris); 
 }
 .footer-span {
-    color: #f4f4fd;
+    color: var(--color-cloud);
 }
 
 /* +++++++++Portfolio+++++++++++ */
@@ -173,25 +173,25 @@ button:focus {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color: #F4F4FD;
+    color: var(--color-iris);
+    background-color: var(--color-cloud);
     cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--color-ocean);
 }
 .gallery-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  #2e2f42;
+    color:  var(--color-navy-blue-modal);
 }
 .gallery-par {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--color-slate);
 }

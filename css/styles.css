@@ -39,6 +39,12 @@ body {
     text-transform: uppercase;
     color: var(--color-iris);
 }
+.header-logo-text {
+    color: var(--color-grey);
+}
+.menu-link {
+    color: var(--color-grey);
+}
 /* span Studio */
 .logo-text {
     color: var(--color-cloud);

@@ -45,6 +45,10 @@ body {
 .menu-link {
     color: var(--color-grey);
 }
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--color-ocean);
+}
 /* span Studio */
 .logo-text {
     color: var(--color-cloud);

@@ -20,10 +20,6 @@ body {
 
 }
 
-span {
-color: var(--color-cloud);
-}
-
 .link {
     text-decoration: none;
 }
@@ -45,7 +41,7 @@ color: var(--color-cloud);
 }
 /* span Studio */
 .logo-text {
-    color: var(--color-navy-blue-modal);
+    color: var(--color-cloud);
 }
 .menu-list {
     text-decoration: none;

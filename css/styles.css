@@ -211,3 +211,6 @@ button:focus {
 .logo-text-portfolio {
     color: var(--color-grey);
 }
+.footer-text-portfolio {
+    color: var(--color-cloud);
+}
